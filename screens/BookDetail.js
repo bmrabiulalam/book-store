@@ -154,7 +154,6 @@ const BookDetail = ({ route, navigation }) => {
     }
 
     function renderBookDescription() {
-
         const indicatorSize = scrollViewWholeHeight > scrollViewVisibleHeight ? scrollViewVisibleHeight * scrollViewVisibleHeight / scrollViewWholeHeight : scrollViewVisibleHeight
 
         const difference = scrollViewVisibleHeight > indicatorSize ? scrollViewVisibleHeight - indicatorSize : 1
